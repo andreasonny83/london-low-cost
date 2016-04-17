@@ -1,5 +1,5 @@
 {
-  "name": "travel-low-cost",
+  "name": "london-low-cost",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreasonny83/travel-low-cost.git"
+    "url": "git+https://github.com/andreasonny83/london-low-cost.git"
   },
   "author": "andreasonny83 <andreasonny83@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andreasonny83/travel-low-cost/issues"
+    "url": "https://github.com/andreasonny83/london-low-cost/issues"
   },
-  "homepage": "https://github.com/andreasonny83/travel-low-cost#readme"
+  "homepage": "https://github.com/andreasonny83/london-low-cost#readme"
 }
