@@ -1,5 +1,5 @@
 "Acton Town" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.502500",
     "-0.278126"
@@ -9,17 +9,7 @@
   ]
 },
 "Acton Central" : {
-  "zone" : "unknown",
-  "position" : [
-    "51.50883531",
-    "-0.263033174"
-  ],
-  "lines" : [
-    "London Overground"
-  ]
-},
-"Acton Central" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.50856013",
     "-0.262879534"
@@ -29,7 +19,7 @@
   ]
 },
 "Aldgate" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.51394",
     "-0.07537"
@@ -39,7 +29,7 @@
   ]
 },
 "Aldgate East" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.51514",
     "-0.07178"
@@ -49,7 +39,7 @@
   ]
 },
 "Alperton" : {
-  "zone" : "unknown",
+  "zone" : "4",
   "position" : [
     "51.54097",
     "-0.30061"
@@ -59,7 +49,7 @@
   ]
 },
 "Amersham" : {
-  "zone" : "unknown",
+  "zone" : "9",
   "position" : [
     "51.67435",
     "-0.60732"
@@ -69,7 +59,7 @@
   ]
 },
 "Angel" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.53253",
     "-0.10579"
@@ -79,7 +69,7 @@
   ]
 },
 "Archway" : {
-  "zone" : "unknown",
+  "zone" : ["2", "3"],
   "position" : [
     "51.56536",
     "-0.13474"
@@ -89,7 +79,7 @@
   ]
 },
 "Arnos Grove" : {
-  "zone" : "unknown",
+  "zone" : "4",
   "position" : [
     "51.61625",
     "-0.13355"
@@ -99,7 +89,7 @@
   ]
 },
 "Arsenal" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.55847",
     "-0.10561"
@@ -109,7 +99,7 @@
   ]
 },
 "Baker Street" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.52265",
     "-0.15704"
@@ -119,7 +109,7 @@
   ]
 },
 "Baker Street" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.522236",
     "-0.157080"
@@ -129,7 +119,7 @@
   ]
 },
 "Balham" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.44344113",
     "-0.152945844"
@@ -139,7 +129,7 @@
   ]
 },
 "Bank" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.5134047",
     "-0.08905843"
@@ -149,7 +139,7 @@
   ]
 },
 "Barbican" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.520865",
     "-0.097758"
@@ -159,7 +149,7 @@
   ]
 },
 "Barking" : {
-  "zone" : "unknown",
+  "zone" : "4",
   "position" : [
     "51.54079",
     "+0.08018"
@@ -169,7 +159,7 @@
   ]
 },
 "Barkingside" : {
-  "zone" : "unknown",
+  "zone" : "4",
   "position" : [
     "51.58543",
     "+0.08854"
@@ -179,7 +169,7 @@
   ]
 },
 "Barons Court" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.490281",
     "-0.214340"
@@ -188,8 +178,18 @@
     "Piccadilly, District"
   ]
 },
+"Beckton" : {
+  "zone" : "3",
+  "position" : [
+    "",
+    ""
+  ],
+  "lines" : [
+    "DLR"
+  ]
+},
 "Bayswater" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.51224",
     "-0.187569"
@@ -199,7 +199,7 @@
   ]
 },
 "Becontree" : {
-  "zone" : "unknown",
+  "zone" : "5",
   "position" : [
     "51.54029",
     "+0.12620"
@@ -209,7 +209,7 @@
   ]
 },
 "Belsize Park" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.55036",
     "-0.16465"
@@ -219,7 +219,7 @@
   ]
 },
 "Bermondsey" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.49813",
     "-0.06350"
@@ -229,7 +229,7 @@
   ]
 },
 "Bethnal Green" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.52718",
     "-0.05504"
@@ -239,7 +239,7 @@
   ]
 },
 "Blackfriars" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.5114403",
     "-0.10419050"
@@ -249,7 +249,7 @@
   ]
 },
 "Blackhorse Road" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.58698",
     "-0.04104"
@@ -259,7 +259,7 @@
   ]
 },
 "Bond Street" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.51461",
     "-0.14897"
@@ -269,7 +269,7 @@
   ]
 },
 "Borough" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.50095",
     "-0.09446"
@@ -279,7 +279,7 @@
   ]
 },
 "Boston Manor" : {
-  "zone" : "unknown",
+  "zone" : "4",
   "position" : [
     "51.495371",
     "-0.325573"
@@ -289,7 +289,7 @@
   ]
 },
 "Bounds Green" : {
-  "zone" : "unknown",
+  "zone" : ["3", "4"],
   "position" : [
     "51.60700",
     "-0.12418"
@@ -299,7 +299,7 @@
   ]
 },
 "Bow Road" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.52709",
     "-0.02482"
@@ -309,7 +309,7 @@
   ]
 },
 "Brent Cross" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.57693",
     "-0.21414"
@@ -319,7 +319,7 @@
   ]
 },
 "Brixton" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.46239",
     "-0.115421"
@@ -329,7 +329,7 @@
   ]
 },
 "Bromley-by-Bow" : {
-  "zone" : "unknown",
+  "zone" : ["2", "3"],
   "position" : [
     "51.52466",
     "-0.01282"
@@ -339,7 +339,7 @@
   ]
 },
 "Brondesbury" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.54505",
     "-0.20297"
@@ -349,7 +349,7 @@
   ]
 },
 "Brondesbury Park" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.54060",
     "-0.21093"
@@ -359,7 +359,7 @@
   ]
 },
 "Buckhurst Hill" : {
-  "zone" : "unknown",
+  "zone" : "5",
   "position" : [
     "51.62611",
     "+0.04705"
@@ -369,7 +369,7 @@
   ]
 },
 "Burnt Oak" : {
-  "zone" : "unknown",
+  "zone" : "4",
   "position" : [
     "51.60300",
     "-0.26427"
@@ -379,7 +379,7 @@
   ]
 },
 "Caledonian Road" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.54850",
     "-0.11802"
@@ -389,7 +389,7 @@
   ]
 },
 "Caledonian Road & Barnesbury" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.54326",
     "-0.11544"
@@ -399,7 +399,7 @@
   ]
 },
 "Camden Road" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.54192",
     "-0.13981"
@@ -409,7 +409,7 @@
   ]
 },
 "Camden Town" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.53930",
     "-0.14316"
@@ -419,7 +419,7 @@
   ]
 },
 "Canada Water" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.49787",
     "-0.04967"
@@ -429,7 +429,7 @@
   ]
 },
 "Canary Wharf" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.50362",
     "-0.01987"
@@ -439,7 +439,7 @@
   ]
 },
 "Cannon Street" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.51141",
     "-0.09047"
@@ -449,7 +449,7 @@
   ]
 },
 "Canonbury" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.54822",
     "-0.09632"
@@ -459,7 +459,7 @@
   ]
 },
 "Canons Park" : {
-  "zone" : "unknown",
+  "zone" : "5",
   "position" : [
     "51.60810",
     "-0.29487"
@@ -469,7 +469,7 @@
   ]
 },
 "Chalfont & Latimer" : {
-  "zone" : "unknown",
+  "zone" : "8",
   "position" : [
     "51.66822",
     "-0.56053"
@@ -479,7 +479,7 @@
   ]
 },
 "Chalk Farm" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.54390",
     "-0.15384"
@@ -489,7 +489,7 @@
   ]
 },
 "Chancery Lane" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.51836",
     "-0.11115"
@@ -499,7 +499,7 @@
   ]
 },
 "Charing Cross" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.507108",
     "-0.122963"
@@ -509,7 +509,7 @@
   ]
 },
 "Chesham" : {
-  "zone" : "unknown",
+  "zone" : "9",
   "position" : [
     "51.70522733",
     "-0.610986426"
@@ -519,7 +519,7 @@
   ]
 },
 "Chigwell" : {
-  "zone" : "unknown",
+  "zone" : "4",
   "position" : [
     "51.61795",
     "+0.07511"
@@ -529,7 +529,7 @@
   ]
 },
 "Chiswick Park" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.49466",
     "-0.26866"
@@ -539,7 +539,7 @@
   ]
 },
 "Chorleywood" : {
-  "zone" : "unknown",
+  "zone" : "7",
   "position" : [
     "51.65429872",
     "-0.518373353"
@@ -549,7 +549,7 @@
   ]
 },
 "City Thameslink" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.51416",
     "-0.10335"
@@ -559,7 +559,7 @@
   ]
 },
 "Clapham Common" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.46156",
     "-0.13802"
@@ -569,7 +569,7 @@
   ]
 },
 "Clapham North" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.46522",
     "-0.12950"
@@ -579,7 +579,7 @@
   ]
 },
 "Clapham South" : {
-  "zone" : "unknown",
+  "zone" : ["2", "3"],
   "position" : [
     "51.45292257",
     "-0.147562148"
@@ -589,7 +589,7 @@
   ]
 },
 "Cockfosters" : {
-  "zone" : "unknown",
+  "zone" : "5",
   "position" : [
     "51.65117",
     "-0.14811"
@@ -599,7 +599,7 @@
   ]
 },
 "Colindale" : {
-  "zone" : "unknown",
+  "zone" : "4",
   "position" : [
     "51.59556",
     "-0.24996"
@@ -609,7 +609,7 @@
   ]
 },
 "Colliers Wood" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.41823649",
     "-0.17800983"
@@ -619,7 +619,7 @@
   ]
 },
 "Covent Garden" : {
-  "zone" : "unknown",
+  "zone" : "1",
   "position" : [
     "51.51308",
     "-0.12427"
@@ -629,7 +629,7 @@
   ]
 },
 "Croxley" : {
-  "zone" : "unknown",
+  "zone" : "7",
   "position" : [
     "51.64733268",
     "-0.441479115"
@@ -639,7 +639,7 @@
   ]
 },
 "Dagenham East" : {
-  "zone" : "unknown",
+  "zone" : "5",
   "position" : [
     "51.54396",
     "+0.16439"
@@ -649,7 +649,7 @@
   ]
 },
 "Dagenham Heathway" : {
-  "zone" : "unknown",
+  "zone" : "5",
   "position" : [
     "51.54173",
     "+0.14543"
@@ -659,7 +659,7 @@
   ]
 },
 "Dalston Kingsland" : {
-  "zone" : "unknown",
+  "zone" : "2",
   "position" : [
     "51.54832",
     "-0.07879"
@@ -669,7 +669,7 @@
   ]
 },
 "Debden" : {
-  "zone" : "unknown",
+  "zone" : "6",
   "position" : [
     "51.64535",
     "+0.08364"
@@ -679,7 +679,7 @@
   ]
 },
 "Dollis Hill" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.55250",
     "-0.23884"
@@ -689,7 +689,7 @@
   ]
 },
 "Ealing Broadway" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.51482",
     "-0.30118"
@@ -699,7 +699,7 @@
   ]
 },
 "Ealing Common" : {
-  "zone" : "unknown",
+  "zone" : "3",
   "position" : [
     "51.50997",
     "-0.28825"
