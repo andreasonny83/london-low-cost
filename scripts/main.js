@@ -5,40 +5,57 @@
 * @copyright 2016 @andreasonny83
 * @link https://github.com/andreasonny83/london-low-cost
 */
-'use strict';
-
 (function(window, document, undefined) {
-  var canvas = document.getElementById('canvas');
-  var ctx = canvas.getContext('2d');
+  'use strict';
 
-  ctx.fillStyle = "rgb(180, 180, 180)";
-  ctx.fillRect (0, 0, 800, 600);
+  var ctc = document.getElementById('canvas');
+  var ctx = ctc.getContext('2d');
+  var canvas = {
+    width: 1100,
+    height: 1500
+  }
+
+  ctc.width = canvas.width;
+  ctc.height = canvas.height;
+  ctx.fillStyle = 'rgb(221, 221, 238)';
+  ctx.fillRect (0, 0, canvas.width, canvas.height);
 
   function Latitudify(lat) {
-    return ((parseFloat(lat) + 0.8).toFixed(4)) * 100 / 0.95;
+    lat = parseFloat(lat).toFixed(6) * 100;
+    lat += 80;
+
+    return lat * canvas.width / 90;
   }
 
   function Longitudify(lon) {
-    console.log(lon);
-    return 600 - (((parseFloat(lon) - 51.2).toFixed(4)) * 100 / 0.6);
+    lon = parseFloat(lon).toFixed(6) * 100;
+    lon = 5210 - lon;
+
+    return lon * canvas.height / 100;
   }
 
-  function drawPath() {
-    var startLat = Latitudify(PICADILLY['Chesham'].position[1]);
-    var startLon = Longitudify(PICADILLY['Chesham'].position[0]);
+  function drawPath(line, start, end) {
+    var startLat = Latitudify(STATIONS[start].position[1]);
+    var startLon = Longitudify(STATIONS[start].position[0]);
 
-    var endLat = Latitudify(PICADILLY['Beckton'].position[1]);
-    var endLon = Longitudify(PICADILLY['Beckton'].position[0]);
+    var endLat = Latitudify(STATIONS[end].position[1]);
+    var endLon = Longitudify(STATIONS[end].position[0]);
 
     ctx.beginPath();
     ctx.moveTo(startLat, startLon);
     ctx.lineTo(endLat, endLon);
 
-    ctx.strokeStyle = '#F00';
+    ctx.strokeStyle = line.color;
     ctx.lineWidth = 2;
     ctx.stroke();
   }
 
-  drawPath();
+  for (var line in LINES) {
+    for (var i = 0; i < LINES[line].directions.length; i++) {
+      for (var y = 0; y < LINES[line].directions[i].route.length - 1; y++) {
+        drawPath(LINES[line], LINES[line].directions[i].route[y], LINES[line].directions[i].route[y+1]);
+      }
+    }
+  }
 
 })(window, document);
